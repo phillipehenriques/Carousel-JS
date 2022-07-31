@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="style.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <nav id="flex-nav" class="">
+            <img class="img-logo" src="imagens/logo.png" alt="..."/>       
+        </nav>
+        <input type="checkbox" id="active">
+        <label for="active" class="menu-btn"><span></span></label>
+        <label for="active" class="close"></label>
+        <div id="flex-nav" class="wrapper font-family">
+            <ul>
+                <li class="li-center"><a href="index.html">HOME</a></li>
+                <li class="li-center"><a href="#">SOBRE</a></li>
+                <li class="li-center"><a href="#">SERVIÇOS</a></li>
+                <li class="li-center"><a href="#">GALERIA</a></li>
+                <li class="li-center"><a href="#">CONTATO</a></li>
+            </ul>
+        </div>
+        <div class="main bg-white2">
+            <div class="bg-white2">
+                <div id="principal" class="bg-white2 flex-cell">
+                    <img class="img-bm" src="imagens/ball.jpg" alt=""/>
+                </div>
+                <div class="tamanho" id="flex-img">
+                    <a onclick="trocar(this.id)" id="ball">
+                        <img src="imagens/ball.jpg" id="img-ball" class="img-fluid">
+                    </a>
+                    <a  onclick="trocar(this.id)" id="tv">
+                        <img src="imagens/tv.jpg" id="img-tv" class="img-fluid">
+                    </a>
+                    <a  onclick="trocar(this.id)" id="rocket">
+                        <img src="imagens/rocket.jpg" id="img-rocket" class="img-fluid">
+                    </a>
+                    <a  onclick="trocar(this.id)" id="pizza">
+                        <img src="imagens/pizza.png" id="img-pizza" class="img-fluid">
+                    </a>
+                </div>
+            </div>      
+        </div>
+    <footer class="footer">
+        &copy; Phillipe Csorgo Henriques
+    </footer>
+    <script src="javascript.js"></script>
+    </body>
+</html>
