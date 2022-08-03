@@ -5,6 +5,23 @@ body {
   background-attachment: fixed;
 }
 
+/*     HOVER IMG     */
+
+a img {
+  opacity: 1.0;
+  transition: opacity .40s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+a img:hover {
+  opacity: 0.6;
+  transition: opacity .35s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out;
+}​
+
+/*     HOVER IMG     */
+
 .img-logo {
     margin: 1rem;
 }
